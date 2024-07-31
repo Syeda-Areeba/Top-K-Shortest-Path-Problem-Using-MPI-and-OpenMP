@@ -10,7 +10,6 @@ This program implements a parallelized version of Dijkstra's algorithm using bot
 - [Usage](#usage)
 - [Algorithm Overview](#algorithm-overview)
 - [Performance](#performance)
-- [License](#license)
 
 ## Introduction
 
