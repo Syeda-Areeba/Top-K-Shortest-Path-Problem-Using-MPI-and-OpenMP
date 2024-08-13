@@ -95,7 +95,7 @@ The dataset files used for testing are as follows:
 
 These files were obtained by running `dataProcessing.c` using the following commands:
 
-     ```
+    ```
     gcc -o obj_name dataProcessing.c
     ./obj_name
     ```
