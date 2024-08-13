@@ -95,10 +95,10 @@ The dataset files used for testing are as follows:
 
 These files were obtained by running `dataProcessing.c` using the following commands:
 
-    ```
-    gcc -o obj_name dataProcessing.c
-    ./obj_name
-    ```
+```
+gcc -o obj_name dataProcessing.c
+./obj_name
+```
 
 There's no need to run dataProcessing.c file again because data is already processed and converted into numerical representation in above text files that can be stored in matrix graph.
 
