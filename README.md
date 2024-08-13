@@ -48,7 +48,7 @@ This code was executed and tested using Replit. To set up the environment for ru
 
 3. **Terminal Commands**: After configuring the cluster environment, the following terminal commands were executed:
 
-    ```bash
+    ```
     nix-shell
     ```
 
@@ -58,7 +58,7 @@ Once the environment was set up, MPI commands were executed as follows:
 
 1. **Compilation**:
    
-   ```bash
+   ```
    mpicc -o your_executable_name your_source_code.c -fopenmp 
    ```
 
@@ -66,13 +66,13 @@ Once the environment was set up, MPI commands were executed as follows:
 
    If the number of threads was not set within the code using  
 
-   ```bash
+   ```
    omp_set_num_threads(NUM_THREADS)
    ```
 
    or by other methods, then the following command was used to specify the number of threads:
 
-   ```bash
+   ```
    export OMP_NUM_THREADS=num_threads
    ```
 
@@ -81,7 +81,7 @@ Once the environment was set up, MPI commands were executed as follows:
    After compilation and thread configuration (if necessary), the MPI code was run using the following 
    command:
 
-   ```bash
+   ```
    mpirun -np num_processes ./your_executable_name
    ```
 
@@ -95,7 +95,7 @@ The dataset files used for testing are as follows:
 
 These files were obtained by running `dataProcessing.c` using the following commands:
 
-    ```bash
+    ```
     gcc -o obj_name dataProcessing.c
     ```./d
 
